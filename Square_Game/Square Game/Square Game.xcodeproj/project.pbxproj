@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		664007F12C79BF4F00C58EF2 /* Square_Game_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664007F02C79BF4F00C58EF2 /* Square_Game_Model.swift */; };
+		664007F32C79BF9500C58EF2 /* Square_Game_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664007F22C79BF9500C58EF2 /* Square_Game_Controller.swift */; };
+		664007F72C79C10500C58EF2 /* High_Score_Interace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664007F62C79C10500C58EF2 /* High_Score_Interace.swift */; };
+		664007F92C79C15400C58EF2 /* Gameplay_Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664007F82C79C15400C58EF2 /* Gameplay_Interface.swift */; };
+		664007FF2C79C1A400C58EF2 /* Welcome_Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664007FE2C79C1A400C58EF2 /* Welcome_Interface.swift */; };
 		66C460532C6E18F5001829EC /* Square_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C460522C6E18F5001829EC /* Square_GameApp.swift */; };
 		66C460552C6E18F5001829EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C460542C6E18F5001829EC /* ContentView.swift */; };
 		66C460572C6E18F6001829EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C460562C6E18F6001829EC /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		664007F02C79BF4F00C58EF2 /* Square_Game_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square_Game_Model.swift; sourceTree = "<group>"; };
+		664007F22C79BF9500C58EF2 /* Square_Game_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square_Game_Controller.swift; sourceTree = "<group>"; };
+		664007F62C79C10500C58EF2 /* High_Score_Interace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = High_Score_Interace.swift; sourceTree = "<group>"; };
+		664007F82C79C15400C58EF2 /* Gameplay_Interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gameplay_Interface.swift; sourceTree = "<group>"; };
+		664007FE2C79C1A400C58EF2 /* Welcome_Interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome_Interface.swift; sourceTree = "<group>"; };
 		66C4604F2C6E18F5001829EC /* Square Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Square Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66C460522C6E18F5001829EC /* Square_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square_GameApp.swift; sourceTree = "<group>"; };
 		66C460542C6E18F5001829EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +42,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		664007ED2C79BE6700C58EF2 /* Game_Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				664007F22C79BF9500C58EF2 /* Square_Game_Controller.swift */,
+			);
+			path = Game_Controllers;
+			sourceTree = "<group>";
+		};
+		664007EE2C79BE8E00C58EF2 /* Game_Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				664007F62C79C10500C58EF2 /* High_Score_Interace.swift */,
+				664007F82C79C15400C58EF2 /* Gameplay_Interface.swift */,
+				664007FE2C79C1A400C58EF2 /* Welcome_Interface.swift */,
+			);
+			path = Game_Interfaces;
+			sourceTree = "<group>";
+		};
+		664007EF2C79BEBB00C58EF2 /* Game_Models */ = {
+			isa = PBXGroup;
+			children = (
+				664007F02C79BF4F00C58EF2 /* Square_Game_Model.swift */,
+			);
+			path = Game_Models;
+			sourceTree = "<group>";
+		};
 		66C460462C6E18F5001829EC = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +87,9 @@
 		66C460512C6E18F5001829EC /* Square Game */ = {
 			isa = PBXGroup;
 			children = (
+				664007EF2C79BEBB00C58EF2 /* Game_Models */,
+				664007EE2C79BE8E00C58EF2 /* Game_Interfaces */,
+				664007ED2C79BE6700C58EF2 /* Game_Controllers */,
 				66C460522C6E18F5001829EC /* Square_GameApp.swift */,
 				66C460542C6E18F5001829EC /* ContentView.swift */,
 				66C460562C6E18F6001829EC /* Assets.xcassets */,
@@ -137,8 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				664007F32C79BF9500C58EF2 /* Square_Game_Controller.swift in Sources */,
+				664007F92C79C15400C58EF2 /* Gameplay_Interface.swift in Sources */,
 				66C460552C6E18F5001829EC /* ContentView.swift in Sources */,
 				66C460532C6E18F5001829EC /* Square_GameApp.swift in Sources */,
+				664007F12C79BF4F00C58EF2 /* Square_Game_Model.swift in Sources */,
+				664007FF2C79C1A400C58EF2 /* Welcome_Interface.swift in Sources */,
+				664007F72C79C10500C58EF2 /* High_Score_Interace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
